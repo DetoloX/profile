@@ -3,6 +3,6 @@ Portfolio Profile
 
 ORIGINAL WORK
 
-Fork to https://github.com/BlackrockDigital/startbootstrap-freelancer
+Bootstrap template fork  https://github.com/BlackrockDigital/startbootstrap-freelancer
 
-For to https://github.com/rpocklin/angular-timeline
+TimeLine fork  https://github.com/rpocklin/angular-timeline
