@@ -27,26 +27,26 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 		'<span class=" label label-info">Unity3D</span>' +
 		'<span class=" label label-warning">C#</span>' +
 		'<span class=" label label-danger">PHP</span>',
-		contentHtml: '<small>I start working at <a href="https://www.mudo.mx">MUDO&#39;S LAB</a> as a software engineer.<br>' +
+		contentHtml: '<p class="small"> I start working at <a href="https://www.mudo.mx">MUDO&#39;S LAB</a> as a software engineer.<br>' +
 								'Full Stack Web Developer.' +
-									' Developing Web, Hybrid and Augmented Reality apps.</small><br><hr>'+
-									' con esto comenzó la loca idea de crear diferentes dinámicas para aprovechar al máximo la realidad aumentada'
+									' Developing Web, Hybrid and Augmented Reality apps. <br><hr>'+
+									' con esto comenzó la loca idea de crear diferentes dinámicas para aprovechar al máximo la realidad aumentada</p>'
 	}, {
 		// ********************************* PREMIOS EBIC ***********************
 
 		badgeClass: 'info',
 		badgeIconClass: 'glyphicon-queen',
 		title: 'Winner Premios EBIC 2016',
-		contentHtml: '<small>Premio <a target="_blank" href="http://www.iecisa.com/es/actualidad/noticias/newsenticasturias16/">EBIC</a> ' +
+		contentHtml: ' Premio <a target="_blank" href="http://www.iecisa.com/es/actualidad/noticias/newsenticasturias16/">EBIC</a> ' +
 									'Premios a los mejores proyectos tecnológicos de la universidad de Oviedo' +
-									' <hr> <h4>SERIOUS GAME PARA EL ESTUDIO DE FUNCIONES VISUALES: SEGUIMIENTO OCULAR</h4></small>'+
+									' <hr> <h4>SERIOUS GAME PARA EL ESTUDIO DE FUNCIONES VISUALES: SEGUIMIENTO OCULAR</h4> '+
 									' <hr>' +
 									'',
 		contentImages:'	'+
-									' <div class="col-xs-4 col-md-6">'+
-									  ' <a target="_blank" href="https://prezi.com/mtkcz8xzrnfr/serious-game-para-el-estudio-de-funciones-visuales-seguimie/"><img class="img-responsive" src="../assets/sprites/prezi.svg" /></a>'+
+									' <div class="col-xs-6 col-md-6">'+
+									  ' <a target="_blank" href="https://prezi.com/kqv2w6t5ivqr/serious-game-para-el-estudio-de-funciones-visuales-seguimie/"><img class="img-responsive" src="../assets/sprites/prezi.svg" /></a>'+
 									 '</div>'+
-										 '<div class="col-xs-4 col-md-6">'+
+										 '<div class="col-xs-6 col-md-6">'+
 
 									'    <a target="_blank" href="https://www.youtube.com/embed/VmMPN0wVfTY?wmode=opaque"><img class="img-responsive" src="../assets/sprites/youtube.png"  /> </a>'+
 									 '</div>'+
@@ -71,20 +71,13 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 	//	' <hr>' +
 		'<h6 class="text-capitalize">Implementation of VR devices in <a target="_blank" href="https://en.wikipedia.org/wiki/VRPN">VRPN</a>'+
 	 ' and serious games in <a target="_blank" href="https:\\www.unity3d.com">Unity3D</a>.</h6><hr>'+
-		'<p class="text-justify"><small> Desarrollo de serious games como ejercicios de refuerzo en terapias para niños con problemas en el control motor de los ojos,' +
+		'<p class="text-justify small"> Desarrollo de serious games como ejercicios de refuerzo en terapias para niños con problemas en el control motor de los ojos,' +
 		' ambliopia, ojo vago.<br> Para ello se contó con el uso de eyetrackers, dispositivos de realidad virtual que son capaces de'+
 		' registrar el movimiento ocular en referencia a una pantalla de ordenador. <br>' +
 		'Estos juegos provocan que se refuerze la visión periférica, seguimiento y el movimiento sacádico, provocando que el niño '+
-		'se divierta mientras se mejora su problema visual.</small></p>',
+		'se divierta mientras se mejora su problema visual. </p>',
 
-		content:	'<small><ul class="list-group">'+
-			'<li class="list-group-item ">Courses realice when i was student </li>'+
-			'<li class="list-group-item ">• Unity3d</li>'+
-			'<li class="list-group-item ">• Active Directory - Windows Server</li>'+
-			'<li class="list-group-item ">• Zbrush</li>'+
-			'<li class="list-group-item ">• Videogames Programming and development</li>'+
-			'<li class="list-group-item ">• Graphic Programming applied to medicine</li>'+
-			'</ul></small>',
+		content:	'',
 
 		contentTags: '<span class=" label label-default">VRPN</span>' +
 				'<span class=" label label-primary">Unity3D</span>' +
@@ -93,10 +86,10 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 				'<span class=" label label-warning">EyeTracking</span>',
 
 		contentImages:'	'+
-									' <div class="col-xs-4 col-md-6">'+
+									' <div class="col-xs-6 col-md-6">'+
 										' <a target="_blank" href="https://prezi.com/mtkcz8xzrnfr/serious-game-para-el-estudio-de-funciones-visuales-seguimie/"><img class="img-responsive" src="../assets/sprites/proyectofinal.jpg" /></a>'+
 									 '</div>'+
-									 ' <div class="col-xs-4 col-md-6">'+
+									 ' <div class="col-xs-6 col-md-6">'+
  										' <img class="img-responsive" src="../assets/sprites/proyectofinalbook.jpg" />'+
  									 '</div>'
 
@@ -111,14 +104,14 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 		date: '09/2015',
 		dateClass: 'label-danger',
 	//	year: '2015',
-		contentHtml: '<small>'+
+		contentHtml: ' '+
 									' Developing a product sofware. Maquetación en automático de un periódico, fotos, ads, categories, etc' +
 									' and adjusting all to a predefines number of pages via reglas de colocación ' +
 									'<hr><ul class="list-group">'+
 									'<li class="list-group-item ">• Programming of script platform such as Adobe CS5, illustrator CS5, Indesign Server SC5.</li>'+
 									'<li class="list-group-item ">• Developing Visual Studio C# project</li>'+
 									//'<li class="list-group-item ">• Editing the newspaper using Freehand, PageMaker, Illustrator, Indesign, Photoshop</li>'+
-									'</ul><small>',
+									'</ul> ',
 		contentTags: 	'<span class=" label label-success">Scripting</span>' +
 									'<span class=" label label-warning">SQL Server</span>' +
 									'<span class=" label label-default">Scripting</span><br>' +
@@ -138,10 +131,10 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 		dateClass: 'label-danger',
 		when: '09/2013 - 02/2014  - Gijón (España)',
 
-		contentHtml: ' <small>Becarios de la Universidad de Oviedo ' +
+		contentHtml: '  Becarios de la Universidad de Oviedo ' +
 		'<hr><ul class="list-group">'+
 		'<li class="list-group-item ">• Provide prioritised advised technical support and advise as required along the university.</li>'+
-		'</ul></small>',
+		'</ul> ',
 		contentTags: '<span class=" label label-default">Support</span>' +
 									'<span class=" label label-primary">Scripting</span>'
 		});
@@ -166,7 +159,7 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 			'<li class="list-group-item ">• Systems Architecture expertise at applications, database and technology stack</li>'+
 			'<li class="list-group-item ">• Facilitating meetings and user workshops</li>'+
 			'<li class="list-group-item ">• 3rd party suppliers</li>'+
-			'</ul><small>',
+			'</ul> ',
 			contentTags: '<span class=" label label-default">Android SDK</span>' +
 										'<span class=" label label-primary">Java</span>',
 
@@ -182,19 +175,24 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 							'</a></div>',*/
 			contentImages:'' +
 										'' +
-										' <div class="col-xs-3 col-md-3">'+
+										' <div class="col-xs-4 col-md-4">'+
 										' <img class="img-responsive" src="../assets/sprites/yoosports/img01.jpg" />'+
 										'</div>'+
-										' <div class="col-xs-3 col-md-3">'+
+										' <div class="col-xs-4 col-md-4">'+
 										' <img class="img-responsive" src="../assets/sprites/yoosports/img02.jpg" />'+
-										'</div>'+
-										' <div class="col-xs-3 col-md-3">'+
+										'</div>' +
+										' <div class="col-xs-4 col-md-4">'+
 										' <img class="img-responsive" src="../assets/sprites/yoosports/img03.jpg" />'+
 										'</div>'+
-										' <div class="col-xs-2 col-md-3">'+
+										'</div>'+
+										'<div class="row">'+
+										'</div><div class="col-xs-12 col-md-12"><hr></div>' +
+										'<div class="row">'+
+
+										' <div class="col-xs-6 col-md-6">'+
 										' <img class="img-responsive" src="../assets/sprites/yoosports/img04.jpg" />'+
 										'</div>'+
-										' <div class="col-xs-2 col-md-3">'+
+										' <div class="col-xs-6 col-md-6">'+
 										' <img class="img-responsive" src="../assets/sprites/yoosports/img05.jpg" />'+
 										'</div>'
 
@@ -211,16 +209,16 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 				date: '07/2011',
 				dateClass: 'label-danger',
 				year: '2011',
-				contentHtml: '<small>'+
+				contentHtml: ' '+
 											'  ' +
 											'<hr><ul class="list-group">'+
-											'<li class="list-group-item ">• Provide in-house technical support of all equipment</li>'+
+											'<li class="list-group-item ">• Provide in-house technical support of all equipment.</li>'+
 											'<li class="list-group-item ">• Windows 2000 y 2003 server, MySQL, SQL server 2000, Sqlite.</li>'+
 											'<li class="list-group-item ">• Internal software development VB6, Visual Basic Studio 2005, SQL Server 2005, MySQL.</li>'+
-											'<li class="list-group-item ">• Web & applications development using a database server such as sql 2000, MySQL'+
+											'<li class="list-group-item ">• Web & applications development using a database server such as sql 2000, MySQL.'+
 											'<li class="list-group-item ">• Programming of script platform such as Adobe CS5, illustrator CS5, Indesign Server SC5.</li>'+
-											'<li class="list-group-item ">• Editing the newspaper using Freehand, PageMaker, Illustrator, Indesign, Photoshop</li>'+
-											'</ul><small>',
+											'<li class="list-group-item ">• Editing the newspaper using Freehand, PageMaker, Illustrator, Indesign, Photoshop.</li>'+
+											'</ul> ',
 				contentTags: '<span class=" label label-default">Support</span>' +
 											'<span class=" label label-primary">Internal Software</span>' +
 											'<span class=" label label-info">System Admin</span><br>' +
@@ -240,11 +238,11 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 				dateClass: 'label-danger',
 				when: '09/2010 - 06/2011  - Gijón (España)',
 
-				contentHtml: ' <small>Becarios de la Universidad de Oviedo ' +
+				contentHtml: '  Becarios de la Universidad de Oviedo ' +
 				'<hr><ul class="list-group">'+
 				'<li class="list-group-item  ">• Maintaining the network and active directory by using Windows 2003 servers</li>'+
 				'<li class="list-group-item ">• Provide prioritised advised technical support and advise as required along the university.</li>'+
-				'</ul></small>',
+				'</ul> ',
 				contentTags: '<span class=" label label-default">Support</span>' +
 											'<span class=" label label-primary">Scripting</span>'
 				});
@@ -262,7 +260,7 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 				date: '11/2009',
 				dateClass: 'label-primary',
 				when: '11/2009 - San Francisco (USA)',
-				contentHtml: '<small>Beca de Inmersión Inglés Internship -   ' +
+				contentHtml: ' Beca de Inmersión Inglés Internship -   ' +
 				 '<a target="_blank" href="https://www.kaplaninternational.com/">Kaplan International</a> ' +
 				' at <mark>San Francisco (USA)</mark> '
 			});
@@ -277,10 +275,10 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 				//	year:'2009',
 					date: '10/2009',
 					dateClass: 'label-primary',
-					contentHtml: '<small>Becada para realizar un curso de inmersión inglés en A Coruña ' +
+					contentHtml: ' Becada para realizar un curso de inmersión inglés en A Coruña ' +
 					 '<a target="_blank" href="http://www.uimp.es/actividades-academicas/cursos-de-inmersion-en-ingles.html">UIMP</a> ' +
 					' <mark>A Coruña</mark> '+
-					' <small> ' +
+					'   ' +
 					' '
 				});
 
@@ -292,10 +290,10 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 				when: '01/2009 - 08/2009 - Mexico City (Mexico)',
 				date: '01/2009',
 				dateClass: 'label-success',
-				contentHtml: '<small>Estudiante de intercambio mediante las becas de movilidad ' +
+				contentHtml: ' Estudiante de intercambio mediante las becas de movilidad ' +
 				 '<a target="_blank" href="http://www.santander.com/csgs/Satellite/CFWCSancomQP01/es_ES/Santander/Sostenibilidad/Santander-Universidades/Becas-Santander-CRUE-de-Movilidad-Iberoamericana.html">CRUE SANTANDER</a> de cooperación iberoaméricana con destino ' +
 				' <mark>Mexico City</mark> '+
-				' en la <a target="_blank" href="http://www.up.edu.mx">Universidad PANAMERICANA</a><small> ' +
+				' en la <a target="_blank" href="http://www.up.edu.mx">Universidad PANAMERICANA</a>  ' +
 				' '
 			});
 
@@ -311,7 +309,7 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 					date: '01/2009',
 					dateClass: 'label-danger',
 					//year: '2009',
-					contentHtml: '<small>'+
+					contentHtml: ' '+
 												' While I was studing the next level, es decir, la carrera de ingeniería técnica informática ' +
 												' empecé a trabajar en esta empresa desarrollando todo tipo de software multidisciplinar ' +
 												'<hr><ul class="list-group">'+
@@ -321,7 +319,7 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 												'<li class="list-group-item ">• Web & applications development using a database server such as sql 2000, MySQL'+
 												'<li class="list-group-item ">• Programming of script platform such as Adobe CS5, illustrator CS5, Indesign Server SC5.</li>'+
 												'<li class="list-group-item ">• Editing the newspaper using Freehand, PageMaker, Illustrator, Indesign, Photoshop</li>'+
-												'</ul><small>',
+												'</ul> ',
 					contentTags: '<span class=" label label-default">Support</span>' +
 												'<span class=" label label-primary">Internal Software</span>' +
 												'<span class=" label label-info">System Admin</span><br>' +
@@ -342,7 +340,7 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 				date: '05/2002',
 				dateClass: 'label-primary',
 				when: '09/2000 - 05/2002 Gijón (Spain)',
-				contentHtml: '<small>HND IT Applications Disciplina académica Informatics Nota 8,6 </small> '
+				contentHtml: ' HND IT Applications Disciplina académica Informatics Nota 8,6   '
 
 			});
 
@@ -354,9 +352,9 @@ var ExampleCtrl = function($rootScope, $document, $timeout, $scope) {
 		date: '80s',
 		dateClass: 'label-success',
 
-		//titleContentHtml: '<h2>Example 2 <small> header</small></h2>',
+		//titleContentHtml: '<h2>Example 2   header </h2>',
 		titleContentHtml: '<img class="img-responsive" src="../assets/sprites/1982.jpg">',
-		contentHtml: ' <h1>Example page header <small>Subtext for header</small></h1>',
+		contentHtml: ' <h1>Example page header  Subtext for header </h1>',
 		footerContentHtml: '<a href="">Continue Reading</a>'
 		});
 

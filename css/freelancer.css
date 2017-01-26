@@ -7,7 +7,7 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
-p {
+p{
   font-size: 20px;
 }
 p.small {
@@ -51,14 +51,14 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+  border-color: transparent;
 }
 hr.star-light:after {
   background-color: #18BC9C;
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: transparent;
 }
 hr.star-primary:after {
   background-color: white;
@@ -186,9 +186,42 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #A9A9A9;
   color: white;
 }
+/*Sutiles tonos de gris y verde - NATURALIDAD */
+
+section.tone {
+  background: #D3D3D3  !important;
+/*  color: white; */
+}
+
+.toneA {
+  background: #A9A9A9;
+  color: white;
+}
+
+.toneB {
+  background: #808080;
+  color: white;
+}
+.toneC {
+  background: #708090;
+  color: white;
+}
+.toneD {
+  background: #2F4F4F;
+  color: white;
+}
+section.toneE {
+  background: #008080;
+  color: white;
+}
+section.toneF {
+  background: #3CB371;
+  color: white;
+}
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
