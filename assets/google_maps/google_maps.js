@@ -61,5 +61,9 @@ var marker = new google.maps.Marker({ position: uluru, map: map, icon: iconCoffe
 var uluru = {lat: 37.786572, lng: -122.4021734};
 var marker = new google.maps.Marker({ position: uluru, map: map, icon: iconCoffee });
 
+// Mérida Yucatan 21.026115,-89.5753583 ,
+var uluru = {lat:  21.026115, lng: -89.5753583};
+var marker = new google.maps.Marker({ position: uluru, map: map, icon: iconDollar });
+
 
 }
